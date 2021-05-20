@@ -87,12 +87,12 @@
 </template>
 
 <script>
-import {notification, Select} from 'ant-design-vue'
+import { notification, Select } from 'ant-design-vue'
 export default {
   name: 'user_details',
   components: {
     'a-select': Select,
-    'a-select-option': Select.Option,
+    'a-select-option': Select.Option
   },
   data () {
     return {
@@ -106,7 +106,7 @@ export default {
         { id: 6, name: 'George' },
         { id: 7, name: 'Elvis' },
         { id: 8, name: 'Kevin' },
-        { id: 9, name: 'Fred' },
+        { id: 9, name: 'Fred' }
       ]
     }
   },

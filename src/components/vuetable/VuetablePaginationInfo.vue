@@ -19,9 +19,9 @@ export default {
         .replace('{from}', this.tablePagination.from || 0)
         .replace('{to}', this.tablePagination.to || 0)
         .replace('{total}', this.tablePagination.total || 0)
-    },
+    }
   },
-  data: function() {
+  data: function () {
     return {
       tablePagination: null
     }
@@ -29,7 +29,7 @@ export default {
   methods: {
     setPaginationData (tablePagination) {
       this.tablePagination = tablePagination
-    },
-  },
+    }
+  }
 }
 </script>
